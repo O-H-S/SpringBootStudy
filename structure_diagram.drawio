@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-03T12:03:36.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="Os-RhE-UpXrif3AMYw90" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-05-03T15:06:44.098Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="7CVl1-538h_Mh3sezNxs" version="21.2.1" type="device">
   <diagram name="페이지-1" id="_ptc0Xfxyd8aRTRUFgxa">
     <mxGraphModel dx="1633" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
             <mxPoint x="-40" y="17.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2o2ikCS96blISOnsaz1u-8" value="&lt;b&gt;리버스 프록시&lt;/b&gt;&lt;br&gt;mod_proxy 등등..&lt;br&gt;여기서는 Local, &lt;br&gt;별도의 프로세스에서 &lt;br&gt;동작할 수도 있음(TCP)" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2o2ikCS96blISOnsaz1u-1" target="2o2ikCS96blISOnsaz1u-2">
+        <mxCell id="2o2ikCS96blISOnsaz1u-8" value="리버스 프록시 가능&lt;br&gt;mod_proxy 등등..&lt;br&gt;여기서는 Local, &lt;br&gt;별도의 프로세스에서 &lt;br&gt;동작할 수도 있음(TCP)" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2o2ikCS96blISOnsaz1u-1" target="2o2ikCS96blISOnsaz1u-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="430" as="sourcePoint" />
             <mxPoint x="450" y="380" as="targetPoint" />

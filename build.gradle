@@ -23,6 +23,10 @@ dependencies
 	developmentOnly 'com.h2database:h2'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'jakarta.persistence:jakarta.persistence-api' //Jakarta Persistence(이전의 Java Persistence API, JPA)
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
+	
+	
 	//developmentOnly: 운영환경에 배포되는 jar, war 파일에는 developmentOnly로 설치된 라이브러리는 제외된다.
 	//implementation : build.gradle 파일의 implementation은 해당 라이브러리 설치를 위해 일반적으로 사용하는 설정이다. implementation은 해당 라이브러리가 변경되더라도 이 라이브러리와 연관된 모든 모듈들을 컴파일하지 않고 직접 관련이 있는 모듈들만 컴파일하기 때문에 rebuild 속도가 빠르다.
 }

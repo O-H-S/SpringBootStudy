@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.question;
 
 import java.time.LocalDateTime;
 
@@ -11,7 +11,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
-
+import com.example.demo.answer.Answer;
 
 
 @Entity // 이 애너테이션을 적용해야 JPA가 엔티티로 인식한다.
@@ -23,14 +23,14 @@ public class Question
     private Integer id;
 
     @Column(length = 200)
-    private String subject;
+    public String subject;
 
     @Column(columnDefinition = "TEXT") 
-    private String content;
-    private LocalDateTime createDate; // 실제 테이블의 컬럼명은 create_date
+    public String content;
+    public LocalDateTime createDate; // 실제 테이블의 컬럼명은 create_date
     
     @OneToMany(mappedBy = "question", cascade = CascadeType.REMOVE)
     // Answer 엔티티들의 question 컬럼을 기준으로
     // CascadeType.REMOVE : 질문을 삭제하면 그에 달린 답변들도 모두 함께 삭제하기 위해서
-    private List<Answer> answerList;
+    public List<Answer> answerList;
 }
