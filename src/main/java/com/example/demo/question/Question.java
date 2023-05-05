@@ -22,6 +22,11 @@ public class Question
     // GenerationType.IDENTITY는 해당 컬럼만의 독립적인 시퀀스를 생성하여 번호를 증가
     private Integer id;
 
+    public Integer GetID()
+    {
+    	return id;
+    }
+    
     @Column(length = 200)
     public String subject;
 
