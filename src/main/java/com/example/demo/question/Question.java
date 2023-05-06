@@ -22,20 +22,22 @@ public class Question
     // GenerationType.IDENTITY는 해당 컬럼만의 독립적인 시퀀스를 생성하여 번호를 증가
     private Integer id;
 
-    public Integer GetID()
-    {
-    	return id;
-    }
+    public Integer GetID(){return id;}public Integer getId(){return id;}
     
     @Column(length = 200)
     public String subject;
+    public String getSubject(){return subject;}public void setSubject(String subject){this.subject = subject ;}
 
     @Column(columnDefinition = "TEXT") 
     public String content;
+    public String getContent(){return content;}public void setContent(String content){this.content =  content;}
+    
     public LocalDateTime createDate; // 실제 테이블의 컬럼명은 create_date
+    public LocalDateTime getCreateDate(){return createDate;}public void setCreateDate(LocalDateTime createDate){this.createDate = createDate ;}
     
     @OneToMany(mappedBy = "question", cascade = CascadeType.REMOVE)
     // Answer 엔티티들의 question 컬럼을 기준으로
     // CascadeType.REMOVE : 질문을 삭제하면 그에 달린 답변들도 모두 함께 삭제하기 위해서
     public List<Answer> answerList;
+    public List<Answer> getAnswerList(){return answerList;}
 }

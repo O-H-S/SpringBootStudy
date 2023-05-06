@@ -13,7 +13,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.demo.answer.AnswerRepository;
 import com.example.demo.question.QuestionRepository;
-
+import com.example.demo.question.QuestionService;
+import com.example.demo.ScreenCapture;
 
 @SpringBootTest // SbbApplicationTests 클래스가 스프링부트 테스트 클래스임을 의미한다.
 class SpringBootStudyApplicationTests 
@@ -23,7 +24,8 @@ class SpringBootStudyApplicationTests
 	// 테스트 코드의 경우에는 생성자를 통한 객체의 주입이 불가능하므로 테스트 코드 작성시에만 @Autowired를 사용
 	// 실제 코드 작성시에는 생성자를 통한 객체 주입방식을 사용하겠다.
     private QuestionRepository questionRepository;
-	
+	@Autowired
+	private QuestionService questionService;
 	
 	 @Autowired
 	private AnswerRepository answerRepository;
@@ -31,7 +33,8 @@ class SpringBootStudyApplicationTests
 	@Transactional //메서드가 종료될 때까지 DB 세션이 유지된다.
 	@Test  // 테스트 메서드임을 나타낸다. 위 클래스를 JUnit으로 실행하면 @Test 애너테이션이 붙은 메서드가 실행된다.
 	void testJpa() 
-	{        
+	{     
+
 		/*
         Question q1 = new Question();
         q1.subject = "sbb가 무엇인가요?";
@@ -82,7 +85,15 @@ class SpringBootStudyApplicationTests
     }
     
 	
-	
+	@Test
+    void generateQuestions() 
+	{
+        for (int i = 1; i <= 300; i++) {
+            String subject = String.format("테스트 데이터입니다:[%03d]", i);
+            String content = "내용무";
+            this.questionService.create(subject, content);
+        }
+    }
 	
 	
 	
