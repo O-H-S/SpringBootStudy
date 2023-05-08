@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-05-06T11:17:10.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="H01J1TeRKFqO939ON0qA" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-05-07T17:34:54.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="EgGwcE2Xybe4aEKwKB89" version="21.2.1" type="device">
   <diagram name="페이지-1" id="_ptc0Xfxyd8aRTRUFgxa">
-    <mxGraphModel dx="2218" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2033" dy="1520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="80" y="-60" width="2790" height="930" as="geometry" />
         </mxCell>
         <mxCell id="2o2ikCS96blISOnsaz1u-25" value="(하나의 JVM - 하나의 프로세스)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=12 12;opacity=40;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="-40" width="2370" height="870" as="geometry" />
+          <mxGeometry x="140" y="-40" width="2680" height="870" as="geometry" />
         </mxCell>
         <mxCell id="2o2ikCS96blISOnsaz1u-1" value="&lt;b&gt;Web Server&lt;/b&gt;(HTTP)&lt;br&gt;아파치&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-220" y="281.25" width="190" height="125" as="geometry" />
@@ -37,7 +37,7 @@
             <mxPoint x="300" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2o2ikCS96blISOnsaz1u-9" value="&lt;b&gt;Spring Container&lt;/b&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=80;" parent="1" vertex="1">
+        <mxCell id="2o2ikCS96blISOnsaz1u-9" value="&lt;b&gt;Spring Container&lt;br&gt;&lt;/b&gt;Application Context : BeanFactory" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=80;" parent="1" vertex="1">
           <mxGeometry x="1130" y="140" width="730" height="440" as="geometry" />
         </mxCell>
         <mxCell id="2o2ikCS96blISOnsaz1u-10" value="Dispatcher Servlet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -124,9 +124,6 @@
         <mxCell id="0yq-g5GW4wCfp6ru5UPP-11" value="Code, Library, File" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="0yq-g5GW4wCfp6ru5UPP-9" vertex="1">
           <mxGeometry x="35" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0yq-g5GW4wCfp6ru5UPP-13" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1520" y="517.5" width="50" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="0yq-g5GW4wCfp6ru5UPP-20" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1900" y="560" width="111.25" height="122.5" as="geometry" />
         </mxCell>
@@ -179,12 +176,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-318.75" y="90" as="sourcePoint" />
             <mxPoint x="-268.75" y="40" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0yq-g5GW4wCfp6ru5UPP-14" value="Bean으로서, 생명주기 관리" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.004;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0yq-g5GW4wCfp6ru5UPP-29" target="0yq-g5GW4wCfp6ru5UPP-13" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1630" y="780" as="sourcePoint" />
-            <mxPoint x="1390" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0yq-g5GW4wCfp6ru5UPP-32" value="여러 서블릿이 매치될 경우, 단 하나의 서블릿만 선택한다.&lt;br&gt;일반적으로 SpringBoot에서는 Dispatcher Servlet 하나로 충분하고, 모든 요청을 여기로 보낸다." style="text;html=1;strokeColor=#B3B3B3;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
@@ -436,18 +427,6 @@
         <mxCell id="QLFdhtvOyLzrW0mEKJE4-6" value="스프링부트 애플리케이션 시작 시,&amp;nbsp;&amp;nbsp;&lt;br&gt;@Configuration 어노테이션을 통해 이 설정 클래스를 검색하여 적용함.&lt;br&gt;즉, 의존성만 설정하더라도 템플릿 엔진이 적용이 되는 이유." style="text;html=1;strokeColor=#999999;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="1260" y="990" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QLFdhtvOyLzrW0mEKJE4-7" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1466.25" y="510" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="QLFdhtvOyLzrW0mEKJE4-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.678;entryY=1.029;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="QLFdhtvOyLzrW0mEKJE4-7" target="0yq-g5GW4wCfp6ru5UPP-71" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1660" y="523" as="sourcePoint" />
-            <mxPoint x="1500" y="458" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1310" y="420" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QLFdhtvOyLzrW0mEKJE4-21" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1540" y="620" width="120" height="127.5" as="geometry" />
         </mxCell>
@@ -514,23 +493,86 @@
         <mxCell id="QLFdhtvOyLzrW0mEKJE4-34" value="Table B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5DDC4;strokeColor=#d79b00;" parent="QLFdhtvOyLzrW0mEKJE4-37" vertex="1">
           <mxGeometry x="20" y="110" width="80" height="48.75" as="geometry" />
         </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2010" y="80" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-2" value="애플리케이션&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="XxhuknNetA08ghfMMTUt-1">
+          <mxGeometry width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-3" value="" style="group" vertex="1" connectable="0" parent="XxhuknNetA08ghfMMTUt-1">
+          <mxGeometry x="30" y="10" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-4" value="Main" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="XxhuknNetA08ghfMMTUt-3">
+          <mxGeometry width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.978;exitY=0.964;exitDx=0;exitDy=0;strokeColor=#A3A3A3;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="2o2ikCS96blISOnsaz1u-9" target="XxhuknNetA08ghfMMTUt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="170" as="sourcePoint" />
+            <mxPoint x="1658" y="-166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#A3A3A3;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2o2ikCS96blISOnsaz1u-9" target="XxhuknNetA08ghfMMTUt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1854" y="574" as="sourcePoint" />
+            <mxPoint x="2115" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2070" y="-540" width="650" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="XxhuknNetA08ghfMMTUt-9">
+          <mxGeometry width="650" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-8" value="@SpringBootApplication&#xa;public class SpringBootStudyApplication &#xa;    public static void main(String[] args)&#xa;		        SpringApplication.run(SpringBootStudyApplication.class, args);    &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="XxhuknNetA08ghfMMTUt-9">
+          <mxGeometry x="26" y="66.12903225806451" width="598" height="211.61290322580643" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-11" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1450" y="450" width="170" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XxhuknNetA08ghfMMTUt-11">
+          <mxGeometry width="167.5" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0yq-g5GW4wCfp6ru5UPP-13" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="XxhuknNetA08ghfMMTUt-11" vertex="1">
+          <mxGeometry x="50" y="52.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QLFdhtvOyLzrW0mEKJE4-7" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="XxhuknNetA08ghfMMTUt-11" vertex="1">
+          <mxGeometry y="52.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QLFdhtvOyLzrW0mEKJE4-38" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="XxhuknNetA08ghfMMTUt-11" vertex="1">
+          <mxGeometry x="40" y="10" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QLFdhtvOyLzrW0mEKJE4-40" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="XxhuknNetA08ghfMMTUt-11" vertex="1">
+          <mxGeometry y="12.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XxhuknNetA08ghfMMTUt-12" value="Bean&lt;br&gt;(Apllication Context)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="XxhuknNetA08ghfMMTUt-11">
+          <mxGeometry x="90" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0yq-g5GW4wCfp6ru5UPP-14" value="Bean으로서, 생명주기 관리" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.004;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="0yq-g5GW4wCfp6ru5UPP-29" target="0yq-g5GW4wCfp6ru5UPP-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1630" y="780" as="sourcePoint" />
+            <mxPoint x="1390" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QLFdhtvOyLzrW0mEKJE4-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.678;entryY=1.029;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="QLFdhtvOyLzrW0mEKJE4-7" target="0yq-g5GW4wCfp6ru5UPP-71" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1660" y="523" as="sourcePoint" />
+            <mxPoint x="1500" y="458" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QLFdhtvOyLzrW0mEKJE4-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="QLFdhtvOyLzrW0mEKJE4-10" target="QLFdhtvOyLzrW0mEKJE4-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1662" y="282" as="sourcePoint" />
             <mxPoint x="1500" y="391" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QLFdhtvOyLzrW0mEKJE4-38" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1495" y="470" width="40" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="QLFdhtvOyLzrW0mEKJE4-39" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="QLFdhtvOyLzrW0mEKJE4-38" target="QLFdhtvOyLzrW0mEKJE4-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1566" y="670" as="sourcePoint" />
             <mxPoint x="1515" y="563" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="QLFdhtvOyLzrW0mEKJE4-40" value="Bean" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1455" y="470" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QLFdhtvOyLzrW0mEKJE4-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="QLFdhtvOyLzrW0mEKJE4-40" target="QLFdhtvOyLzrW0mEKJE4-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
