@@ -1,4 +1,7 @@
-plugins 
+
+//plugins 블록에서 지정하는 플러그인들은 모두 Gradle에 기본적으로 포함되어 있지 않습니다. 
+// 대신, 이 플러그인들은 대부분 공식적인 플러그인 저장소나 다른 저장소에서 다운로드 받아 사용됩니다.(Gradle용 플러그인의 중앙 저장소)
+plugins //  Gradle 플러그인을 선언하는 곳
 {
 	id 'java'
 	id 'org.springframework.boot' version '3.0.6'
